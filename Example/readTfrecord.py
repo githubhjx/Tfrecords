@@ -24,3 +24,7 @@ img0_batch, img1_batch, label_batch, margin_batch, flag_batch = tf.train.shuffle
 ''''''
 
  trX0, trX1, trY, Margin, Flag = sess.run([img0_batch, img1_batch, label_batch, margin_batch, flag_batch])
+
+ '''''''
+ ''''''
+ ''''''
